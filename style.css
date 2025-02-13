@@ -8,6 +8,7 @@ body {
 
 h2 {
     font-size: 40px;
+    text-align: center;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
     padding: 20px;
 }
 nav ul {
+    text-align: center;
     list-style: none;
     padding: 0;
 }
@@ -38,7 +40,7 @@ nav ul li a {
     display: block;
 }
 
-.card {
+.cards {
     padding: 20px;
     text-align: left;
     background: #ffffff;
@@ -110,6 +112,7 @@ footer {
 .home-images video {
     height: 400px;
     width: 600px;
+    border-radius: 200px;
 }
 
 .news-archives {
@@ -232,21 +235,18 @@ td {
     flex-wrap: wrap;
 }
 
-.facility-card {
-    margin: 20px;
-    padding: 20px;
-    width: 400px;
-    border-radius: 50px;
+.card {
+    margin: 10px;
+    width: 25rem;
 }
 
-.facility-card img {
-    height: 250px;
-    width: 350px;
-    border-radius: 50px;
+.card img {
+    width: 25rem;
+    height: 16.5rem;
 }
 
-.facility-card:hover {
-    box-shadow: 2px 3px 3px black;
-    transition: box-shadow 0.3s;
+.card:hover {
+    box-shadow: 3px 3px 3px grey;
+    transition: box-shadow 0.2s;
 }
 
